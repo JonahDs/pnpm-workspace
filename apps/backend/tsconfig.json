@@ -1,0 +1,15 @@
+{
+  "include": ["index.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "ES2022",
+    "strict": true,
+
+    "noEmit": false,
+    "outDir": "dist",
+
+    "module": "Node16",
+    "skipLibCheck": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pnpm-workspace",
+  "private": true,
+  "packageManager": "pnpm@8.6.10",
+  "scripts": {
+    "build": "pnpm run -r build",
+    "backend:build": "pnpm --filter @shadow/backend run build",
+    "math:build": "pnpm --filter @shadow/math run build"
+  }
+}

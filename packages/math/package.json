@@ -1,0 +1,25 @@
+{
+  "name": "@shadow/math",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "roll": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.17.0",
+    "tslib": "^2.6.2",
+    "zod": "^3.23.4"
+  }
+}
